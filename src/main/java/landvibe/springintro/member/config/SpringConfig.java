@@ -15,7 +15,7 @@ public class SpringConfig {
     public SpringConfig(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
-    @Bean //스프링 빈을 등록할거야
+    @Bean //스프링 빈을 등록할거야 //이게 싱글톤 ..??이라고하셧나그럼이밑에잇는코드가 한객체인가
     public MemberService memberService() {
         return new MemberService(memberRepository);
     }
