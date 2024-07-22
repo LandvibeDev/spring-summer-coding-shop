@@ -16,9 +16,16 @@ public class ItemService {
      * 상품 등록
      */
     public Long create(Item item) {
-        validateDuplicateItem(item.getName());
-        repository.save(item);
-        return item.getId();
+        long start = System.currentTimeMillis();
+        try {
+            validateDuplicateItem(item.getName());
+            repository.save(item);
+            return item.getId();
+        } finally {
+            long end = System.currentTimeMillis();
+            long timeMs = end - start;
+            System.out.println("create::timeMs = " + timeMs);
+        }
     }
     /**
      * 상품 전체조회
