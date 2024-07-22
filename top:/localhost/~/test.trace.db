@@ -79,3 +79,69 @@ select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
 2024-07-22 13:14:22.558281+09:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
 select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 13:33:15.687339+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:02:03.877594+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:37:55.046655+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:38:22.206815+09:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:39:39.582182+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:39:39.768284+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:39:43.516229+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:45:23.362213+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:45:27.304265+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:46:20.284427+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:47:25.858248+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:47:26.758774+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:48:14.730746+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:48:33.030285+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:48:39.373925+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:50:25.488381+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 14:50:43.856552+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 15:27:26.001008+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 15:27:29.653356+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 15:30:08.541652+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 15:32:11.515399+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select i1_0.id,i1_0.count,i1_0.name,i1_0.price from item i1_0 [42104-224]
+2024-07-22 15:34:07.024311+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ITEM" not found (this database is empty); SQL statement:
+select * from item [42104-224]

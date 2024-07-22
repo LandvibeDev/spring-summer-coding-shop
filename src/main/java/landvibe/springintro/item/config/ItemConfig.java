@@ -11,8 +11,7 @@ import javax.sql.DataSource;
 
 @Configuration
 public class ItemConfig {
-//    private final DataSource dataSource;
-//    private final EntityManager em;
+    private final DataSource dataSource;
 //
 //    @Autowired
 //    public ItemConfig(DataSource dataSource, EntityManager em) {
@@ -20,20 +19,24 @@ public class ItemConfig {
 //        this.em = em;
 //    }
 
-    private final ItemRepository itemRepository;
-    public ItemConfig(ItemRepository itemRepository){
-        this.itemRepository = itemRepository;
-    }
-    @Bean
-    public ItemService itemService(){
-        return new ItemService(itemRepository);
+    public ItemConfig(DataSource dataSource) {
+        this.dataSource = dataSource;
     }
 
-//    @Bean
-//    public ItemRepository itemRepository(){
-//        //return new MemoryItemRepository();
-//        //return new JdbcItemRepository(dataSource);
-//        //return new JdbcTemplateItemRepository(dataSource);
-//        return new JpaItemRepository(em);
-//    }
+/*    private final ItemRepository itemRepository;
+    public ItemConfig(ItemRepository itemRepository){
+        this.itemRepository = itemRepository;
+    }*/
+    @Bean
+    public ItemService itemService(){
+        return new ItemService(itemRepository());
+    }
+
+    @Bean
+    public ItemRepository itemRepository(){
+        //return new MemoryItemRepository();
+        //return new JdbcItemRepository(dataSource);
+        return new JdbcTemplateItemRepository(dataSource);
+        //return new JpaItemRepository(em);
+    }
 }
