@@ -1,4 +1,4 @@
-package landvibe.springintro.Controller;
+package landvibe.springintro.controller;
 
 import landvibe.springintro.member.controller.MemberForm;
 import org.springframework.ui.Model;

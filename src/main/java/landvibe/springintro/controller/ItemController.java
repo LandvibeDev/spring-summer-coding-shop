@@ -1,4 +1,4 @@
-package landvibe.springintro.Controller;
+package landvibe.springintro.controller;
 
 import org.springframework.ui.Model;
 import landvibe.springintro.item.controller.ItemCreateForm;
