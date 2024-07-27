@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header" />
 <body>
 <div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader"/>
     <form action="/members/new" method="post">
         <div class="form-group">
             <label for="name">이름</label>
@@ -9,6 +11,8 @@
         </div>
         <button type="submit">등록</button>
     </form>
+    <div th:replace="fragments/footer :: footer"/>
+
 </div> <!-- /container -->
 </body>
 </html>
